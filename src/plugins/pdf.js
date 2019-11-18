@@ -42,33 +42,7 @@ PDF.install = function(Vue, options) {
             }
         }
         pdf.save(`${pdfName}.pdf`);
-    //     let position = 0;
-    //     let { width: CWidth, height: CHeight } = canvas;
-    //     console.log('CHeight', CHeight);
-    //     console.log('CWidth', CWidth);
-    //     const PWidth = AWidth;
-    //     const PHeight = (AWidth / CWidth) * CHeight;
-    //    // const PHeight = AHeight;
-    //     console.log('PHeight', PHeight);
-    //     console.log('PWidth', PWidth);
-    //     const jpeg = canvas.toDataURL("image/jpeg", 1.0);
-    //     const doc = new JsPDF("", "pt", "a4");
-    //     // doc.addImage(jpeg, "JPEG", 0, 0, PWidth, PHeight);
-        
-    //     if (CHeight < PHeight) {
-    //         doc.addImage(jpeg, "JPEG", 0, 0, PWidth, PHeight);
-    //     } else {
-    //         while (CHeight > 0) {
-    //             doc.addImage(jpeg, "JPEG", 0, position, PWidth, PHeight);
-    //             CHeight -= PHeight;
-    //             position -= AHeight;
-    //             if (CHeight > 0) {
-    //                 doc.addPage();
-    //             }
-    //         }
-    //     }
-    //     doc.save(pdfName);
-    //     cb()
+ 
     });
   };
 };
