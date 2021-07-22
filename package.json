@@ -14,7 +14,7 @@
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "vue": "^2.6.10",
-    "xlsx": "^0.15.1"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",
